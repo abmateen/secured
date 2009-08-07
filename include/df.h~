@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* Variables in config file */
+extern char *mailprogram;
+extern char *server;
+extern char *mailparamters;
+
+
+
+void generate_disk_report();

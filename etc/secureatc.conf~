@@ -1,0 +1,8 @@
+# Secure atc config file
+ #mail program
+[ mail ]
+  program = "/usr/bin/mailx"
+  parameters = 
+
+[ php ] 
+    
