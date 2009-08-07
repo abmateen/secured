@@ -13,4 +13,4 @@ secured:
 	$(CC) -shared -o lib/libsecured.so src/df.o src/pidof.o src/emailit.o src/process.o
 
 main: 
-	$(CC) -Iinclude/ -Llib/ src/main.c -o src/secureatcd -lsecured -lpthread
+	$(CC) -Iinclude/ -Llib/ src/main.c -o src/secured -lsecured -lpthread
