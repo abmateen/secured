@@ -19,8 +19,8 @@ void email_it(char *filename)
 {                                                                       
 	char tmp[256]={0x0};                                                
 	char fpBuffer[512]={0x0};                                           
-	char email_list[LIST_LEN][256]={  {"abmateen@addictivemobility.com"},             
-							   {"abmateen@addictivemobility.com"},             
+	char email_list[LIST_LEN][256]={  {0x0},             
+							   {0x0},             
 					  {0x0},         
 							   {0x0}};                                  
 	int i=0;                                                            
