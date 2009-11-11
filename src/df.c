@@ -1,7 +1,6 @@
 /*************************************/
 /**  ***************/
 /*** Author : Abdul Mateen ***********/
-/*** Sponsoring Company : Additive Mobility / AddictiveTech Corp ***/
 /** The Program is released under GPLv2 License ***/
 
 
