@@ -1,0 +1,5 @@
+The security system is dedicated to Linux servers, on which much of the things are running all the time and main / production servers.
+
+1. Filesystem monitoring, the security system will monitor the file space availability and if there is a critical file space means now space of any device is 1% remaining it will email to the support of the servers, and notify them by email / sms (kannel) setup.
+
+2. Process monitoring , the system will monitor the processes running and the process the administrators wanted to be monitored, are mentioned in the config file and then the program will read config file and then it will add that to that to the linked list the program will monitor the queue of the processes and if any process terminates on the server it will try to restart the process if the process is constantly not restarting after much tries the system will email/sms the adminitrative support about the event of the server.
